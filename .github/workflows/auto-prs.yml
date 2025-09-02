@@ -1,7 +1,7 @@
 name: Auto PR Generator
 on:
   schedule:
-    - cron: "0 * * * *"   # Weekdays 9 AM to 5 PM, excluding Sunday
+    - cron: "/10 * * * *"   # Weekdays 9 AM to 5 PM, excluding Sunday
   workflow_dispatch:
 
 permissions:
